@@ -15,8 +15,41 @@
         </ul>
     </div>
     <div>
-        <form action="" method="post">
-        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <h4>Maila mig!</h4>
+            <fieldset>
+                <legend>Fråga</legend>
+                    Typ av ärende: <br />
+                        <select name="select">
+                        <option value="html">HTML</option> 
+                        <option value="css" selected>CSS</option>
+                        <option value="java">Javascript</option>
+                        <option value="personligt">Personligt</option>
+                        </select>
+                        <br>
+                            Rubrik: <br />
+                                <input type="text" name="rubrik" value="Skriv här..."><br />
+                            Fråga:  <br />
+                                <textarea name="fraga" rows="10" cols="50">Beskriv din fråga...</textarea><br />
+             </fieldset>
+             <fieldset>
+                <legend>Information om dig</legend>
+                    Namn: <br />
+                        <input type="text" name="fornamn" value="Förnamn"><br />
+                        <input type="text" name="efternamn" value="Efternamn"><br />
+                    Telefonnummer: <br />
+                        <input type="text" name="telefonnummer" value="Skriv nummer här"><br />    
+                    Mailadress: <br />
+                        <input type="text" name="mailadress" value="exempel@mail.com"><br/>
+                        <br />
+                    Hur vill du bli kontaktad? <br />
+                    Via mail:
+                        <input type="checkbox" name="kontakt" value="via_mail"/><br />
+                    Via telefon:
+                        <input type="checkbox" name="kontakt" value="via_telefon"/><br />
+                        <br />
+                <input type="submit" value"submit"/>
+             </fieldset>
     </div>
     
 </body>
