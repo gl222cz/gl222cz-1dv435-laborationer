@@ -33,6 +33,9 @@ body{
     display:inline;
     width: auto;
 }
+a:link { text-decoration: none}
+a:visited { text-decoration: none}
+a:active { text-decoration: none}
 /* --------------------------------------------*/
 /* body */
 /* --------------------------------------------*/    
@@ -40,14 +43,24 @@ body{
 {
     background-color:white;
     float: left;
-    width: auto;
+    width: 960px;
     height: auto;
     margin: auto;
     font-family: arial;
 }
-#content h2, h3{
+#content h2, h3
+{
     background-color: #FFB873;
 }
+#contleft{
+    float:left;
+    width:450px;
+}
+#contright{
+    float:right;
+    width:450px;
+}
+
 
 /* --------------------------------------------*/
 /* foot */
