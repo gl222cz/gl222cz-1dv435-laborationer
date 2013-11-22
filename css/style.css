@@ -41,24 +41,50 @@ a:active { text-decoration: none}
 /* --------------------------------------------*/    
 #content
 {
-    background-color:white;
+    background-color:#E8FFFB;
     float: left;
     width: 960px;
     height: auto;
     margin: auto;
     font-family: arial;
 }
-#content h2, h3
+#content p, table
+{
+    text-align: justify;
+    margin-left:10px;
+    margin-right:10px;    
+}
+#content h2, h3{
+    background-color:#FFB873;
+    padding:8px;
+    margin-left:10px;
+    margin-right:10px;  
+}
+
+.floatingheader h2,.floatingheader h3
 {
     background-color: #FFB873;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-#contleft{
+#contleft
+{
     float:left;
-    width:450px;
+    width:49%;
+}    
+#contleft p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #contright{
-    float:right;
-    width:450px;
+    float:left;
+    width:49%;
+}
+#contright p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
