@@ -48,13 +48,13 @@ a:active { text-decoration: none}
     margin: auto;
     font-family: arial;
 }
-#content p, table
+#content p, table, for
 {
     text-align: justify;
     margin-left:10px;
     margin-right:10px;    
 }
-#content h2, h3{
+#content h1, h2, h3{
     background-color:#FFB873;
     padding:8px;
     margin-left:10px;
@@ -64,15 +64,16 @@ a:active { text-decoration: none}
 .floatingheader h2,.floatingheader h3
 {
     background-color: #FFB873;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:8px;
 }
 #contleft
 {
     float:left;
     width:49%;
 }    
-#contleft p{
+#contleft p, dl, ul, ol{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
@@ -81,7 +82,7 @@ a:active { text-decoration: none}
     float:left;
     width:49%;
 }
-#contright p{
+#contright p, dl, ul, ol, img{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;

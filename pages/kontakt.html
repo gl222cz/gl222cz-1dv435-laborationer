@@ -3,54 +3,63 @@
     <head>
         <meta charset="utf-8">
         <title>Kontakt - GUSTAV LINZATTI</title>
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
     </head>
 <body>
-    <h1>Kontakt</h1>
-    <div>   
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </div>
-    <div>
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-        <h4>Maila mig!</h4>
-            <fieldset>
-                <legend>Fråga</legend>
-                    Typ av ärende: <br />
-                        <select name="select">
-                        <option value="html">HTML</option> 
-                        <option value="css" selected >CSS</option>
-                        <option value="java">Javascript</option>
-                        <option value="personligt">Personligt</option>
-                        </select>
-                        <br>
-                            Rubrik: <br />
-                                <input type="text" name="rubrik" placeholder="Skriv namn här"><br />
-                            Fråga:  <br />
-                                <textarea name="fraga" rows="10" cols="50" placeholder="Beskriv din fråga här"></textarea><br />
-             </fieldset>
-             <fieldset>
-                <legend>Information om dig</legend>
-                    Namn: <br />
-                        <input type="text" name="fornamn" placeholder="Förnamn"><br />
-                        <input type="text" name="efternamn" placeholder="Efternamn"><br />
-                    Telefonnummer: <br />
-                        <input type="text" name="telefonnummer" placeholder="Skriv nummer här"><br />    
-                    Mailadress: <br />
-                        <input type="text" name="mailadress" placeholder="exempel@mail.com"><br/>
-                        <br />
-                    Hur vill du bli kontaktad? <br />
-                    Via mail:
-                        <input type="checkbox" name="kontakt" value="via_mail"/><br />
-                    Via telefon:
-                        <input type="checkbox" name="kontakt" value="via_telefon"/><br />
-                        <br />
-                <input type="submit" value="submit">
-             </fieldset>
-        </form>   
-    </div>
+    <div id=container>
+        <div id="top">
+            <img src="../pics/banner.png" alt="banner"/>
+        </div>
+        <div id="nav">    
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <div id="content">  
+            <h1>Kontakt</h1>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <h4>Maila mig!</h4>
+                <fieldset>
+                    <legend>Fråga</legend>
+                        Typ av ärende: <br />
+                            <select name="select">
+                            <option value="html">HTML</option> 
+                            <option value="css" selected >CSS</option>
+                            <option value="java">Javascript</option>
+                            <option value="personligt">Personligt</option>
+                            </select>
+                            <br>
+                                Rubrik: <br />
+                                    <input type="text" name="rubrik" placeholder="Skriv namn här"><br />
+                                Fråga:  <br />
+                                    <textarea name="fraga" rows="10" cols="50" placeholder="Beskriv din fråga här"></textarea><br />
+                 </fieldset>
+                 <fieldset>
+                    <legend>Information om dig</legend>
+                        Namn: <br />
+                            <input type="text" name="fornamn" placeholder="Förnamn"><br />
+                            <input type="text" name="efternamn" placeholder="Efternamn"><br />
+                        Telefonnummer: <br />
+                            <input type="text" name="telefonnummer" placeholder="Skriv nummer här"><br />    
+                        Mailadress: <br />
+                            <input type="text" name="mailadress" placeholder="exempel@mail.com"><br/>
+                            <br />
+                        Hur vill du bli kontaktad? <br />
+                        Via mail:
+                            <input type="checkbox" name="kontakt" value="via_mail"/><br />
+                        Via telefon:
+                            <input type="checkbox" name="kontakt" value="via_telefon"/><br />
+                            <br />
+                    <input type="submit" value="submit">
+                 </fieldset>
+            </form>   
+        </div>
+        <div id="footer">
+            <p>Koppirajt Gustav Linzatti</p>
+        </div>
+    </div>    
 </body>
 </html>
